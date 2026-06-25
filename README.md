@@ -22,6 +22,30 @@
         .incorrect { background-color: #fee2e2; color: #991b1b; display: block; }
         .btn-start { background-color: #f97316; color: white; padding: 1rem 3rem; font-size: 1.5rem; border-radius: 9999px; font-family: 'Fredoka One', cursive; box-shadow: 0 4px 0px #c2410c; }
         .score-display { font-family: 'Fredoka One', cursive; font-size: 4rem; color: #0ea5e9; }
+        .btn-flotante-mateken {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #FFD166;
+    color: #073B4C;
+    padding: 15px 22px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s, background-color 0.2s;
+    z-index: 9999;
+    font-family: sans-serif;
+}
+.btn-flotante-mateken:hover {
+    transform: scale(1.1);
+    background-color: #fffde7;
+}
+    
     </style>
 </head>
 <body>
@@ -135,5 +159,9 @@
         }
     }
 </script>
+
+<a href="https://mateken2.netlify.app/" target="_blank" class="btn-flotante-mateken">
+        🤖 Ir a MateKen2
+    </a>
 </body>
 </html>
