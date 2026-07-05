@@ -160,7 +160,7 @@
     }
 </script>
 
-<a href="https://mateken2.pages.dev/" target="_blank" class="btn-flotante-mateken">
+<a href="https://tinyurl.com/mathken2" target="_blank" class="btn-flotante-mateken">
         🤖 Ir a MateKen2
     </a>
 </body>
